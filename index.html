@@ -6,7 +6,41 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
   </head>
   <body>
+    <div class="background">
+      <div class="logo-container">
+        <img src="./fof-rio-logo.svg" alt="fof-rio-logo"/>
+      </div>
+      <div class="login-container">
+        <div class="login">
+          <div class="inline-flex flex-col space-y-12 items-center justify-center p-8 w-full bg-white rounded">
+             <div class="flex flex-col space-y-4 items-center justify-center w-full">
+                <p class="text-xl font-bold leading-snug text-center text-gray-800">Bem vindo ao nosso portal</p>
+                <p class="text-sm leading-none text-center text-gray-800">Preencha os dados abaixo para acessar</p>
+             </div>
+             <div class="flex flex-col space-y-6 items-center justify-center w-full">
+                <div class="flex flex-col space-y-2 items-center justify-center w-full">
+                   <p class="self-start text-sm leading-none text-gray-800">E-mail</p>
+                   <div class="flex flex-col items-center justify-center p-3 w-full bg-white border rounded border-gray-300">
+                      <p class="w-full text-sm leading-none text-gray-600">Digite seu e-mail</p>
+                   </div>
+                </div>
+                <div class="flex flex-col space-y-2 items-center justify-center w-full">
+                   <p class="self-start text-sm leading-none text-gray-800">Senha</p>
+                   <div class="flex flex-col items-center justify-center p-3 w-full bg-white border rounded border-gray-300">
+                      <p class="w-full text-sm leading-none text-gray-600">Digite sua senha</p>
+                   </div>
+                   <p class="self-end text-sm leading-none underline text-blue-600">Esqueceu sua senha?</p>
+                </div>
+             </div>
+             <div class="inline-flex items-center justify-center p-3 w-full bg-blue-600 rounded">
+                <p class="w-full text-sm font-bold leading-none text-center text-white">ACESSAR</p>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>  
